@@ -1340,6 +1340,66 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Single Product
+--------------------------------------------------------------*/
+.primary-color {
+  color: #1977cc;
+}
+
+.single-product-img-container {
+  max-width: 28rem;
+  min-width: 5rem;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.single-product-img {
+  width: 100%;
+} 
+
+.product-detail {
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-description {
+  margin-top: 1rem;
+}
+
+.card-price {
+  margin-top: 0.5rem;
+  font-size: large;
+}
+
+.final-price {
+  font-weight: bold;
+}
+
+.initial-price {
+  color: #6c757d;
+  text-decoration: line-through;
+}
+
+.action-btns {
+  margin-top: 1rem;
+}
+
+.single-action-btn {
+  border: none;
+  background-color: white;
+  color: black;
+  border: 2px solid #1977cc;
+}
+
+.cart-btn {
+  margin-left: 0;
+  background-color: #1977cc;
+  border: 2px solid #1977cc;
+  color: white;
+}
+
+/*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 #footer {
